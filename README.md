@@ -145,7 +145,7 @@ nested arrays and hashes (the Ruby equivalent of a JavaScript object):
 ```rb
 # app.rb
 pp [{ id: 1, hello: "World" }, { id: 2, hello: "Ruby" }, { id: 3, hello: "Moon" }, { id: 4, hello: "Learner" }]
-```
+``u
 
 The `pp` method will "pretty-print" these objects by calling the
 `.pretty_inspect` method on our data.
